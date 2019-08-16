@@ -1,0 +1,33 @@
+{
+    "name": "weather",
+    "version": "1.0.0",
+    "description": "Weather Project",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development --open"
+    },
+    "author": "CV",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.35.3",
+        "webpack-cli": "^3.3.5",
+        "webpack-dev-server": "^3.7.2"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "babel-polyfill": "^6.26.0",
+        "iso8601-js-period": "^0.2.1",
+        "leaflet-groupedlayercontrol": "^0.6.1",
+        "leaflet-timedimension": "^1.1.0",
+        "leaflet.nontiledlayer": "^1.0.7",
+        "leaflet.wms": "^0.2.0",
+        "live-server": "^1.2.1",
+        "zipcodes": "^8.0.0"
+    }
+}

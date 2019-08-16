@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="body_top">
+        <div class="app_title_container top_container_div">
+            <h1 class="app_title">WEATHER</h1>
+            <div class="search_container top_container_div">
+                <label for="zip_input_label">Zip Code:</label>
+                <input class="zip_code" type="text">
+                <button class="zip_input_button">Get Weather</button>
+            </div>
+        </div>
+        <div class="top_container_div"></div>
+        <div class="top_current_display top_container_div">
+
+        </div>
+    </div>
+    <div class="body_middle">
+        <div class="map_container">
+            <div id="map"></div>
+        </div>
+        <div class="week_forecast_container">
+            <!--
+            <div class="day_container">
+                <div class="day_container">
+                    <div class="day_description_container">
+                        <div class="day_label">DAY</div>
+                        <div class="day_start">START</div>
+                        <div class="day_end">END</div>
+                    </div>
+                    <div class="day_forecast_container">
+                        <div class="forecast_image">IMG</div>
+                        <div class="detailed_forecast">FORECAST</div>
+                    </div>
+                </div>
+                <div class="night_container">
+                    <div class="day_description_container">
+                        <div class="day_label">DAY</div>
+                        <div class="day_start">START</div>
+                        <div class="day_end">END</div>
+                    </div>
+                    <div class="day_forecast_container">
+                        <div class="forecast_image">IMG</div>
+                        <div class="detailed_forecast">FORECAST</div>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+    <div class="body_bottom">
+    </div>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
+    <script src="https://unpkg.com/leaflet.nontiledlayer@1.0.7/dist/NonTiledLayer.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
+    <script src="https://unpkg.com/jquery@3.2.1/dist/jquery.min.js"></script>
+</body>
+
+</html>
